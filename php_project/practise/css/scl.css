@@ -1,0 +1,97 @@
+.margin{
+	margin-left: 10%; margin-right: 10%;
+}
+.scl_dis{
+	color: #47d3a0;text-decoration: none;font-weight: 400;font-style: normal;
+}
+.home{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.helping{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 50px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-align: right;
+}
+.welcome{
+	font-weight: 300;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0px;
+}
+.button{
+	padding: 19px 44px 20px;
+    padding-top: 19px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    padding-left: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff !important;
+    background-color: #47d3a0;
+    position: relative;
+    text-align: center;
+}
+table tr td div div button a{text-decoration: none;}
+.table{
+	background-color: #47d3a0;
+	background-size: auto;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	padding-bottom: 24px;
+	padding-top: 61px;
+}
+.table tr{
+	margin-left: 10%; margin-right: 10%;
+}
+.offering{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 1.9;
+    letter-spacing: 0px;
+}
+.icon{
+	color: white;
+	font-size: 80px
+}
+.read_more{
+	padding: 19px 44px 20px;
+    padding-top: 19px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    padding-left: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #47d3a0;
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+.news{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 0px;
+}

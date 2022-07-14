@@ -1,0 +1,208 @@
+.color-green{
+    color: green;
+}
+.color-red{
+    color: red;
+}
+.border-color-red{
+    border-color:red;
+}
+.border-color-green{
+    border-color:green;
+}
+.form-control {
+	/*background-color: #d8c9f3 !important;*/
+	border: 2px solid #db99f9 !important;
+}
+.input-group-text{
+	border: 2px solid #db99f9 !important;
+	padding: 0.3rem 0.75rem !important;
+	background-color: #db99f9 !important;
+}
+.select2-container--bootstrap4 .select2-selection
+{
+	border: 2px solid #db99f9 !important;
+}
+.custom-control-label::before{
+	border: 2px solid #db99f9 !important;
+}
+.mm-collapse, .mm-show, .mm-collapsing
+{
+	min-width: 200px !important;
+}
+.mm-collapse .mnu_active a{
+	color: #ffffff !important;
+}
+.mm-collapsing .mnu_active a{
+	color: #ffffff !important;
+}
+
+.w-28{
+	width: 28px !important;
+}
+.h-18{
+	height: 18px !important;
+}
+.fs-18{
+	font-size: 18px !important;
+}
+.p-l-20{
+	padding-left: 20px !important;
+}
+/* *****************custom radio button********************** */
+.wraper{
+	display: inline-flex;
+	background: #fff;
+	height: 30px;
+	width: 200px;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 5px;
+  }
+  .wraper .option{
+	background: #fff;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 10px 5px 0 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 0 0px;
+	border: 2px solid lightgrey;
+	transition: all 0.3s ease;
+  }
+  .wraper .sale-option{
+	  padding: 18px 5px;
+	  width: 80px;
+  }
+  .wraper .purchase-option{
+	padding: 18px 0px;
+	width: 105px;
+  }
+  .wraper .gold-option{
+	padding: 18px 5px;
+	width: 95px;
+	}
+	.wraper .cash-option{
+	padding: 18px 0px;
+	width: 95px;
+	}
+	.wraper .credit-option{
+	padding: 18px 5px;
+	width: 95px;
+	}
+	.wraper .debit-option{
+	padding: 18px 0px;
+	width: 95px;
+	}
+  .wraper .option .dot{
+	height: 18px;
+	width: 18px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	position: relative;
+  }
+  .wraper .option .dot::before{
+	position: absolute;
+	content: "";
+	top: 3px;
+	left: 3px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	opacity: 0;
+	transform: scale(1.5);
+	transition: all 0.3s ease;
+  }
+  .wraper .option .sales::before{
+	  background: #37B301;
+  }
+  .wraper .option .purchase::before{
+	  background: #EB160C;
+  }
+  .wraper .option .gold::before{
+	  background: #FFC300;
+  }
+  .wraper .option .cash::before{
+	  background: #0C5AEB;
+  }
+  input[type="radio"]{
+	display: none;
+  }
+  #s_id:checked:checked ~ .sale-option{
+	border-color: #37B301;
+	background: #37B301;
+  }
+  #p_id:checked:checked ~ .purchase-option{
+	border-color: #EB160C;
+	background: #EB160C;
+  }
+  #transaction_type1:checked:checked ~ .credit-option{
+	border-color: #37B301;
+	background: #37B301;
+  }
+  #transaction_type2:checked:checked ~ .debit-option{
+	border-color: #EB160C;
+	background: #EB160C;
+  }
+  #gold_id:checked:checked ~ .gold-option{
+	border-color: #FFC300;
+	background: #FFC300;
+  }
+  #cash_id:checked:checked ~ .cash-option{
+	border-color: #0C5AEB;
+	background: #0C5AEB;
+  }
+  #s_id:checked:checked ~ .sale-option .dot,
+  #p_id:checked:checked ~ .purchase-option .dot,
+  #gold_id:checked:checked ~ .gold-option .dot,
+  #cash_id:checked:checked ~ .cash-option .dot,
+  #transaction_type1:checked:checked ~ .credit-option .dot,
+  #transaction_type2:checked:checked ~ .debit-option .dot
+  {
+	background: #fff;
+  }
+  #s_id:checked:checked ~ .sale-option .dot::before,
+  #p_id:checked:checked ~ .purchase-option .dot::before,
+  #gold_id:checked:checked ~ .gold-option .dot::before,
+  #cash_id:checked:checked ~ .cash-option .dot::before,
+  #transaction_type1:checked:checked ~ .credit-option .dot::before,
+  #transaction_type2:checked:checked ~ .debit-option .dot::before
+  {
+	opacity: 1;
+	transform: scale(1);
+  }
+  .wraper .option span{
+	font-size: 16px;
+	color: #808080;
+  }
+  #s_id:checked:checked ~ .sale-option span,
+  #p_id:checked:checked ~ .purchase-option span,
+  #gold_id:checked:checked ~ .gold-option span,
+  #cash_id:checked:checked ~ .cash-option span,
+  #transaction_type1:checked:checked ~ .credit-option span,
+  #transaction_type2:checked:checked ~ .debit-option span
+  {
+	color: #fff;
+  }
+/* *****************custom radio button********************** */
+
+#sale_tbl{
+	width: 100% !important;
+    table-layout: fixed !important;
+}
+#sale_tbl thead>tr>th {
+    padding-right: 15px;
+    font-size: 11px !important;
+    font-weight: 400;
+}
+#purchase_tbl{
+	width: 100% !important;
+    table-layout: fixed !important;
+}
+#purchase_tbl thead>tr>th {
+    padding-right: 15px;
+    font-size: 11px !important;
+    font-weight: 400;
+}

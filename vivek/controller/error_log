@@ -1,0 +1,15 @@
+[28-Dec-2018 13:51:50 UTC] PHP Strict Standards:  Non-static method Cheackstatus::cheack_status() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Cheack_status.php on line 31
+[29-Dec-2018 16:39:26 UTC] PHP Strict Standards:  Non-static method Login::loginAdmin() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Login.php on line 29
+[30-Dec-2018 10:57:42 UTC] PHP Strict Standards:  Non-static method Login::loginAdmin() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Login.php on line 29
+[30-Dec-2018 11:46:24 UTC] PHP Strict Standards:  Non-static method Cheackstatus::cheack_status() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Cheack_status.php on line 31
+[30-Dec-2018 12:29:32 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
+[30-Dec-2018 12:29:58 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
+[30-Dec-2018 12:30:01 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
+[30-Dec-2018 12:30:01 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
+[30-Dec-2018 17:17:28 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
+[30-Dec-2018 17:19:18 UTC] PHP Strict Standards:  Non-static method Login::loginAdmin() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Login.php on line 29
+[31-Dec-2018 03:57:47 UTC] PHP Strict Standards:  Non-static method Login::loginAdmin() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Login.php on line 29
+[31-Dec-2018 13:25:44 UTC] PHP Strict Standards:  Non-static method Cheackstatus::cheack_status() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Cheack_status.php on line 31
+[31-Dec-2018 13:25:57 UTC] PHP Strict Standards:  Non-static method Cheackstatus::cheack_status() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Cheack_status.php on line 31
+[02-Jan-2019 11:43:15 UTC] PHP Strict Standards:  Non-static method Cheackstatus::cheack_status() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Cheack_status.php on line 31
+[02-Jan-2019 11:51:16 UTC] PHP Strict Standards:  Non-static method Registration::registrationUser() should not be called statically in /home/softamass/public_html/dgsk.co.in/controller/Registration.php on line 64
